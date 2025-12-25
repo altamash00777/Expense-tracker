@@ -21,7 +21,7 @@ body {
 /* Main Card */
 #back {
   background: #010101;
-  width: 370px;
+  width: 350px;
   
   padding: 20px;
   border-radius: 1px;
@@ -141,3 +141,4 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
