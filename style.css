@@ -1,0 +1,143 @@
+/* Google Font */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap'); */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   /* font-family: 'Poppins', sans-serif; */
+}
+
+/* Background */
+body {
+  background: #313030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Card */
+#back {
+  background: #010101;
+  width: 370px;
+  
+  padding: 20px;
+  border-radius: 1px;
+  color: #fff;
+}
+
+/* Heading */
+#back h1 {
+  
+  font-weight: 111;
+  text-align: center;
+  margin-bottom: 20px;
+  color: aqua;
+ 
+}
+
+/* Inputs & Select */
+#amt,
+#category {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 1px;
+  border: black;
+  outline:none;
+  font-size: medium;
+  background:rgb(255, 255, 255);
+}
+
+/* Add Button */
+#exp {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #00f260, #0575e6);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+/* Expense Container */
+#container {
+  margin-top: 10px;
+  
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 5px;
+  scrollbar-width: thin;
+  scrollbar-color: #080808 rgba(200, 200, 200, 0.667);
+}
+
+/* Expense Card */
+#container div {
+  background: #555;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* Amount */
+.amount {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Delete Button */
+.deletebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Category */
+.category {
+  display: block;
+  margin-top: 6px;
+  font-size: 20px;
+  opacity: 2.9;
+  
+}
+
+/* Time */
+.time {
+  display: block;
+  margin-top: 4px;
+  font-size: 20px;
+  opacity: 1.7;
+  
+}
+
+/* Total */
+#total {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+/* Delete All */
+#del {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}

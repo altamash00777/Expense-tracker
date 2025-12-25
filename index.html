@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div id="back"><h1>Expense tracker</h1>
+    <input placeholder="Amount" id="amt">
+    <select id="category" required>
+        <option value="" disabled selected hidden>
+            choose option
+        </option>
+        
+        <option value="food">Food</option>
+        <option value="travel">Travel</option>
+        <option value="study">Study</option>
+        <option value="rent">Rent</option>
+        <option value="other">Other</option>
+    </select>
+    <button id="exp">Add expense</button>
+<div id="container"></div>
+<div id="total">Total:  ₹0</div>
+<button id="del">delete all</button>
+</div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
